@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Kimia"/>
+    <meta name="keywords" content="BOOTSTRAP"/>
+    <meta name="description" content="Petite page web pour s'exercer avec Bootstrap."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="stylesurf.css"/>
+    <link rel="icon" type="image/x-icon" href="/images/bootstrapIcon.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@300;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab9e928176.js" crossorigin="anonymous"></script>
+    <title>Bootstrap</title>
+
+  </head>
+  <body>
+
+<!--Barre navigateur du haut-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">The Surfing Project</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Le Programme</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nos prochaines sessions</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button style="border-color: #d63384;" class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--END Barre navigateur du haut-->
+
+<!--Background + Jumbotron-->
+
+<section class="jumbotron text-center">
+  <br><br>
+        <h1 style="font-weight: 900;" class="jumbotron-heading">Partez à l'aventure</h1>
+        <p class="lead">Découvre notre école de surf en peer-learning</p>
+        <p>
+          <a href="#" style="background-color: #d63384; border-style: none;" class="btn btn-primary">Je m'inscris à la prochaine session</a>
+          <a href="#" style="background-color: #ced4da; border-style: none;" class="btn btn-secondary">Je découvre le programme</a>
+        </p>
+    </section>
+
+<!--END Background + Jumbotron-->
+
+<!--Cards-->
+
+    <main class="container">
+      <br><br>
+      <h1 style="font-weight: 900;">The Surfing Project en 3 points</h1>
+    <div class="row">
+  <div class="col-sm-4">
+    <div class="card" style="border: none;">
+      <i class="fas fa-wallet fa-5x text-center" style="color: #d63384;"></i>
+      <div class="card-body">
+          <h3 class="card-title text-center">Pas chère</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card" style="border: none;">
+      <i class="fas fa-cocktail fa-5x text-center" style="color: #d63384;"></i>
+      <div class="card-body">
+        <h3 class="card-title text-center">Relax</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card" style="border: none;">
+      <i class="fas fa-users fa-5x text-center" style="color: #d63384;"></i>
+      <div class="card-body">
+        <h3 class="card-title text-center">La communauté</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div><br><br>
+  </div>
+  <h1 style="font-weight: 900;">Témoignages</h1>
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <img src="surf.jpg" alt="surf"/>
+      <div class="card-body">
+        <p class="card-text">Surfing's not a sport, it's a way of life, it's no a hobby. It's a way of looking at that wave and saying, "Hey bud, let's party!"</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <img src="tour_du_monde.jpg" alt="bâteau">
+      <div class="card-body">
+        <p class="card-text">Grâce à TSP je fais le tour du monde avec mon bâteau et fais du surf ! Si l'expérience était à refaire je le referais plein de fois.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</main>
+
+<!--END Cards-->
+
+<!--Pricing-->
+<br>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 66%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="pricing-header text-center">
+  <br>
+      <h1 style="font-weight: 900;">Pricing</h1>
+    </div>
+<br>
+  <main>
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center justify-content-around">
+      <div class="col-sm-4">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Semaine d'essai</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0€<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Le kiff</li>
+              <li>À Bali</li>
+              <li>Pendant 1 semaine</li>
+            </ul>
+            <button type="button" style="background-color: #d63384; border-style: none;" class="w-75 btn btn-lg btn-primary">S'inscrire</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Early bird</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">15€<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Le kiff</li>
+              <li>À Bali</li>
+              <li>Pendant 12 semaines</li>
+            </ul>
+            <button type="button" style="background-color: #d63384; border-style: none;" class="w-75 btn btn-lg btn-primary">S'inscrire</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 text-black">
+            <h4 class="my-0 fw-normal">En trois fois</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">29€<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Le kiff</li>
+              <li>À Bali</li>
+              <li>Pendant 12 semaines</li>
+            </ul>
+            <button type="button" style="background-color: #d63384; border-style:none;" class="w-75 btn btn-lg btn-primary">S'inscrire</button>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--END Pricing-->
+
+<!--Footer-->
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-3 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; Bootstrap & Kimia</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+</footer>
+  </body>
+</html>
